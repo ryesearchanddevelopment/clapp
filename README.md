@@ -11,6 +11,9 @@ Run mkdir build && cd build && cmake .. && make && ./targets/raylib/clapp_raylib
 
 ## Working with apps
 
+Each app exposes an ```app<app name>``` function that renders the app either as a widget view or follscreen.
+This function is called by the main clapp UI.
+
 ### Add an app
 
 1. Copy the test folder in /apps and change "test" in the file names and CMakeLists.txt to the name of your app
